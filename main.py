@@ -6,7 +6,7 @@ from geopy.geocoders import Nominatim
 
 
 # Создаем подключение к боту
-#bot = telebot.TeleBot('5899210772:AAFYWIzpfutI2obBL2UevixJOVS2OUyNv44')
+bot = telebot.TeleBot('5899210772:AAFYWIzpfutI2obBL2UevixJOVS2OUyNv44')
 geolocator = Nominatim(user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36')
 
 # Словарь для временных данных
